@@ -6,7 +6,7 @@ public class Arithmetic {
     // Check if there are 3 command-line arguments in the
     //  String array args[] by using length variable of array.
     if (args.length != 3) {
-      System.err.println("Usage: java Arithmetic int1 int2 op");
+      System.out.println("Usage: java Arithmetic int1 int2 op");
       return;
     }
    
@@ -21,12 +21,20 @@ public class Arithmetic {
     System.out.print(args[0] + args[2] + args[1] + "=");
    
     switch(theOperator) {
-      case ('-'): System.out.println(operand1 - operand2); break;
-      case ('+'): System.out.println(operand1 + operand2); break;
-      case ('*'): System.out.println(operand1 * operand2); break;
-      case ('/'): System.out.println(operand1 / operand2); break;
+      case ('-'): 
+        System.out.println(operand1 - operand2); 
+        break;
+      case ('+'): 
+        System.out.println(operand1 + operand2); 
+        break;
+      case ('*'): 
+        System.out.println(operand1 * operand2); 
+        break;
+      case ('/'): 
+        System.out.println(operand1 / operand2); 
+        break;
       default:
-        System.err.println("Error: invalid operator!"); 
+        System.out.println("Error: invalid operator!"); 
     }
   }
 }
