@@ -1,0 +1,12 @@
+// By Anders Carlsson
+1. Skapa ett nytt projekt i Eclipse.
+
+2. Skapa klassen User som har instansvariablerna: userId, username, password.
+
+3. Skapa klassen UserStorage som lagrar user-objekt i en array. Denna klass har en metod addUserToStorage() som lagrar user-objekt i sin array samt metoden getUserFromStorage() som returnerar eventuellt lagrat User-objekt med det userId som skickas som argument.
+
+4. Subklassa klassen Exception för att skapa ditt egna Exception som ska heter StorageException.
+
+5. Låt metoden addUserToStorage() kasta StorageException om ett User-objekt med samma userId redan finns lagrad i arrayn.
+
+6. Låt metoden getUserFromStorage() kasta StorageException om det inte finns något User- objekt med angivet userId.
