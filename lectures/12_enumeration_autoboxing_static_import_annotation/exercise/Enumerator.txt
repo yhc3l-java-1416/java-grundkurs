@@ -1,0 +1,11 @@
+1) Create an enumerator for the months of the year based on their english 3 character name e.g. JAN , FEB etc.
+2) Extend your enumerator so it has a private variable for the monthNumber.
+3) Create a constructor in your enumerator to set the numerical number of the month and change the list of constants so they set this value i.e. JAN(1).
+4) Create a public method getMonthNumber to return the private variable monthNumber.
+
+5) Create a new class to test your Months enumerator. 
+6) Use values() method to print out all months and there monthNumber.
+7) Create a currentMonth variable of type Months. Set it's value using the valueOf() method to be the value of the String argument[0] in the arguments array sent to your main method. Use try and catch to handle any possible exceptions.
+8) Create a switch on currentMonth and print to the terminal the season of the month i.e. "Winter", "Spring", "Autumn", "Summer"
+7) Create another Months variable and set it to April. 
+8) Use the compareTo() method and a 3 if statements to print if the currentMonth is before, after or equal to April.
