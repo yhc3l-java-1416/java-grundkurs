@@ -1,11 +1,16 @@
-1) Read in everyline of the text file fox-in-socks.txt into a collection.
+1) Read in every line of the text file fox-in-socks.txt into a collection.
 
-2) Can you itterate over all the lines and display them in the console.
+2) Can you iterate over all the lines and display them in the console.
 
-3) Someone has sabotagged the file and added duplicate line enteries. Can you use a collection that deletes the duplicates but maintains the order? (It's OK to remove the emptylines)
+3) Someone has sabotaged the file and added duplicate line entries. Can you use a collection that deletes the duplicates but maintains the order? (It's OK to remove the empty lines)
 
 4) Can you use a collection to sort the lines into alphabetical order?
 
+5) Change the code to a list and write your own code to remove any duplicate lines? (Note how computer intensive this can be).
+
+6) Display the lines in the correct order without duplicates.
+
+7) Display every third line only.
 
 Bonus points:
-5)  Can you save your output to a new file.
+8)  Can you save your output to a new file.
